@@ -1,0 +1,3 @@
+!alive name
+
+// Replace "name" with the variable name of the unit and place in the int. of a trigger's "condition". When the unit dies the trigger will activate.
