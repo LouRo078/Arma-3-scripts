@@ -1,0 +1,4 @@
+"RCOP\RCOPersist\RCOPsaving.sqf" remoteExec ["execVM",0];
+
+// Used in the debug console to save the progress when using the Persist mod
+// https://steamcommunity.com/sharedfiles/filedetails/?id=2603942867&searchtext=persist
