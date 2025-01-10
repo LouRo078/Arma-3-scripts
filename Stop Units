@@ -1,0 +1,3 @@
+doStop this;
+
+\\ Write in a unit's init and it won't move until in danger.
