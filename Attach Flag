@@ -1,0 +1,4 @@
+this forceFlagTexture "\A3\Data_F\Flags\Flag_fia_CO.paa";
+
+// Copy paste into the int of a unit/vehicle
+// replace "\A3\Data_F\Flags\Flag_fia_CO.paa" with the path to the flag you want. In this case it would be a vanilla FIA flag.
