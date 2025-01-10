@@ -1,0 +1,7 @@
+this setFlagTexture "myflag.jpg"
+
+// Put this in the int. of a flag pole. 
+// Put the picture you want to make the flag into the mission file and replace myflag.jpj with the name of the picture. 
+// It needs to be a JPG file
+
+// If you are trying to change the texture on a banner, it's treated as a sign so check the notes for that.
