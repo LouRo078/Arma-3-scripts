@@ -1,1 +1,3 @@
 ["init","Some Headline","Some Descriptions",[12,34,56],["Ticker","Newses","If","You'd","Like","To","Add","Your","Own"]] call PLP_fnc_AAN
+
+// Used in the debug console and applies an overlay to the camera
