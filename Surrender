@@ -1,0 +1,6 @@
+{
+_x setCaptive true;
+_x action ["Surrender", _x]
+} forEach units groupname;
+
+// Set "goupname" to the name of the unit you want to surrender.
