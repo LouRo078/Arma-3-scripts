@@ -1,0 +1,16 @@
+_grp1 = [getMarkerPos "testSpawn", east, ["O_Soldier_SL_F", "O_Soldier_F","O_Soldier_F","O_Soldier_F","O_Soldier_F","O_Soldier_AR_F"],0] call BIS_fnc_spawnGroup; 
+ 
+_wpt1 = _grp1 addWaypoint [getMarkerPos "testMove",5]; 
+_wpt1 setWaypointType "MOVE";
+
+// Set "testSpawn" to the name of the marker where you want the units to spawn.
+// Replace "O_Soldier_SL_F" with the name of the unit you want to spawn.
+// Set "testMove" to the name of the marker where you want to add the waypoint.
+// Set "MOVE" to the waypoint type you want to add for the unit.
+// You can add multible waypoints by changing _wpt1
+
+_grp1 = [getMarkerPos "testSpawn2", east, ["O_Soldier_SL_F", "O_Soldier_F","O_Soldier_F","O_Soldier_F","O_Soldier_F","O_Soldier_AR_F"],0] call BIS_fnc_spawnGroup;  
+ 
+[_grp1, 1000, nil, nil, getmarkerPos "testRush"] spawn lambs_wp_fnc_taskRush;
+
+// you can use this to spawn the units with a lambs waypoint
