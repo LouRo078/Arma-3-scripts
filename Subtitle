@@ -1,0 +1,4 @@
+["name", "subtitle"] spawn BIS_fnc_showSubtitle;
+
+// "name" is the name of the speaker
+// "subtitle" is the text
