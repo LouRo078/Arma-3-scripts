@@ -1,0 +1,3 @@
+({alive _x} count units croupname) < 2
+
+// Replace "croupname" with the name of the group you want to trigger and set the number to the one you want. in this example once only one remains the trigger is set off.
