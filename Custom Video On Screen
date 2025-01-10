@@ -1,0 +1,9 @@
+// Place the script in a trigger with the activation of your choise
+tv_1 setobjecttextureglobal [0,"video.ogv"];  
+  
+["video.ogv",[10,10]] spawn bis_fnc_playvideo;  
+// Place the desiered video file into the mission file in a .ogv format
+// Replace "tv_1" with the variable name of the screen
+// Replace "video.ogv" with the name of the video you wish to play
+
+// Note; sound works but will be heard everywhere in the world 
