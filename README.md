@@ -6,7 +6,7 @@ Here is a collection of useful scripts I've gathered over the years. There are a
 **Comments**
 
 Comments are present in the scripts either on their own line or at the end of the code on the same line.
-The comments can be recognized by having two slaches ("//") ahead of them. 
+The comments can be recognized by having two slashes ("//") ahead of them. 
 The comments wont have an effect on code in seperate files, but has to be removed if used in a mission file in a trigger, unit, ect.
 
 
