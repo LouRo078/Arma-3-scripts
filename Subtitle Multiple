@@ -1,0 +1,9 @@
+[
+	["Speaker1", "Subtitle1", 0], // Speaker1 is the name of the speaker displayed, Subtitle1 is the test displayed
+	["Speaker2", "Subtitle2", 5],
+	["Speaker3", "Subtitle3", 10],
+	["Speaker4", "Subtitle4", 15]
+] spawn BIS_fnc_EXP_camp_playSubtitles; // displays 4 subtitles with 5 seconds between them
+
+sleep 7;
+BIS_fnc_EXP_camp_playSubtitles_terminate = true; // closes subtitles
