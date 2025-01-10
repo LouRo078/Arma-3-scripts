@@ -1,0 +1,4 @@
+name flyInHeight 40;
+
+// Set the name part as the name of the unit and the number at the end as the height that you want the pilot to fly at. Place the whole script in the unit's int.
+// By default a pilot flies at 100m.
