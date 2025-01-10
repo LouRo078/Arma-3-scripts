@@ -1,0 +1,4 @@
+bomb_1 setDamage 100;
+
+// Put this in the on activation part of the trigger
+// Replace "bomb_1" with the variable name of the explosive
