@@ -1,0 +1,16 @@
+this addaction ["InteractionName",{VariableName = TRUE;}]
+
+// Place this in the subject object
+// Change "InteractionName" to the the name you want to appear when interacting with the object
+// Change VariableName to the desiared name of the variable name. Note: if you have multible usages of thin in a mission you need to give every instance a different variable name
+// This is the most simple form of a scroll action. If you want to change it's attributes refer to the "AddAction" documentaition 
+
+!isNil "VariableName";
+
+// Place this in the Condition part of a trigger
+// Set "VariableName" to the same one you did before
+
+VariableName = any;
+
+// Place this in the On Activation part of a trigger to have the action be repeatable
+// You also need to tick the "repeatable" in the trigger activation as well 
