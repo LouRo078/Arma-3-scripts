@@ -1,0 +1,4 @@
+{deleteVehicle _x;}forEach crew name;deleteVehicle name;
+
+// Set the script in the "On activation" part of a trigger
+// Repace "name" with the variable name of the vehicle
