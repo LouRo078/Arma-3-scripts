@@ -1,0 +1,14 @@
+unit addAction [
+	"title",    //STRING
+	"script" or {code}, //STRING
+	arguments,   //ANY
+	priority,   //NUMBER
+	showWindow,   //BOOLEAN
+	hideOnUse,   //BOOLEAN
+	"shortcut",   //STRING
+	"condition",  //STRING
+	radius,    //NUMBER
+	unconscious];  //BOOLEAN
+
+// Put this in the int of the object
+// Look at the arma forums for the paramitters: https://community.bistudio.com/wiki/addAction
