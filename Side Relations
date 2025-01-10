@@ -1,0 +1,9 @@
+west setFriend [resistance, 0];
+resistance setFriend [west, 0];
+
+// Set the sides to the ones you want to change the relations of. You need to change them both ways. Anything above a value of 1 is friendly and anything under is hostile.
+
+// Sides:
+// blufor=west
+// opfor=east
+// independant=resistance
