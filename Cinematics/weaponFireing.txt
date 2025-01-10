@@ -1,2 +1,4 @@
 [this, 0, 0.3] call PLP_fnc_fireWeapon
 this call PLP_fnc_simpleAttach
+
+// Used in the init of a unit
