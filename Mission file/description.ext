@@ -1,0 +1,53 @@
+// GENERAL
+disabledAI    = 1;    // 0 = Fill with AI, 1 = Don't fill with AI.
+joinUnassigned   = 1;    // 0 = Join server assigned, 1 = Join unassigned.
+disableChannels[]    = {0,2,3,4,5,6}; // 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System.
+enableDebugConsole  = 1;    // 0 = Disabled, 1 = Admins only, 2 = Everyone (Why is this even an option?).
+showGPS     = 0;   // 0 = Disable GPS, 1 = Enable GPS.
+showCompass    = 1;   // 0 = Disable compass, 1 = Enable compass.
+showWatch    = 1;   // 0 = Disable watch, 1 = Enable watch.
+
+class Header {
+ gameType    = Coop;   // Game type
+  minPlayers    = 1;    // Min # of players the mission supports.
+ maxPlayers    = 50;    // Max # of players the mission supports.
+};	
+
+// LOAD SCREEN
+author     = "D. Smith";
+onLoadName    = "Training Base";
+onLoadMission   = "";
+overviewText   = "Altis";
+loadScreen    = "thumbnail.jpg";
+overviewPicture   = "\a3\Missions_F_gamma\data\img\showcase_arma_overview_ca.paa";
+
+// RESPAWN
+respawn     = 3;   // 0 = None, 1 = Bird, 2 = Instant, 3 = Base, 4 = Group, 5 = Side.
+respawnDelay    = 5;      // Time in seconds to respawn.
+respawnOnStart   = 1;   // Start mission as if each player just respawned (Dialogs etc). 1 = TRUE, 0 = FALSE.
+
+// FORTIFY
+class ACEX_Fortify_Presets {
+    class preRoadkill {
+        objects[] = {
+            {"Land_Boxloader_Fort_Ground_5", 0},
+            {"Land_New_WiredFence_10m_F", 0},
+            {"PowerGenerator_EP1", 0},
+            {"Land_CampingChair_V2_F", 0},
+            {"Land_CampingTable_F", 0},
+            {"Land_PortableWeatherStation_01_sand_F", 0},
+            {"WaterPump_01_Sand_F", 0},
+            {"Land_Boxloader_Hesco_3_Built", 0},
+            {"Land_Boxloader_Hesco_5_Built", 0},
+            {"Land_Boxloader_Hesco_Big3_Built", 0},
+            {"Land_BagFence_Round_F", 0},
+            {"Land_BagFence_Long_F", 0},
+            {"Land_Fort_Watchtower_EP1", 0},
+            {"Land_PortableLight_double_F", 0},
+            {"Land_Plank_01_4m_F", 0},
+            {"Land_Plank_01_8m_F", 0},
+            {"Land_BarGate_F", 0},
+            {"Land_HelipadCircle_F", 0}
+        };
+    };
+};
