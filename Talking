@@ -1,0 +1,28 @@
+// Add this into the description.ext in the mission file
+class CfgSounds
+{
+	sounds[] = {};
+	class talking
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "taking";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "fx\speak.ogg", 3, 1, 100 };
+
+		// subtitle delay in seconds, subtitle text
+		titles[] = { 1, "*speaking*" };
+	};
+	
+};
+
+// The sound file needs to be in the .ogg format
+// If you want to add lip sync you need to use the Arma 3 tools with the instructions in this video https://www.youtube.com/watch?v=giOpjIeoWEg
+
+
+// Add this into a trigger in the mission to get the unit talking 
+
+unit say "talking";
+
+// replace "unit" with the variable name of the talker
+// replace ""talking"" with the name set in the CfgSounds
