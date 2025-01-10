@@ -1,0 +1,5 @@
+deleteVehicle name;
+
+// Set the script in the "On activation" part of a trigger
+// Repace "name" with the variable name of the vehicle
+// Yes, it's deleteVehicle for everything, not just a vehicle. Arma is beautiful
