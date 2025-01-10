@@ -1,0 +1,4 @@
+this setObjectTextureGlobal [0, "sign.jpg"];
+
+// Put this in the int. of a sign, billboard, computer, banner, ect. 
+// Put the picture you want to make the texture into the mission file and replace sign.jpg with the name of the picture. 
