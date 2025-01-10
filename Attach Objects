@@ -1,0 +1,4 @@
+[object_0, object_1] call BIS_fnc_attachToRelative
+// object_0 is the object being attached (you could set that to "this" to make it the object it's in the init of)
+// Object_1 is the object being attached to 
+// usually placed in the init of the object being attached
