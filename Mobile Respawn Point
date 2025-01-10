@@ -1,0 +1,4 @@
+[FACTION, NAME] call BIS_fnc_addRespawnPosition;
+
+// set FACTION as the faction you are using (eg. west for blufor)
+// set NAME as the variable name of the respawn vehicle, unit or group
